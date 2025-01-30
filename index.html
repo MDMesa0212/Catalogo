@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExC (Experience Center)</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="img/bakgound-cisco.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="contenido">
+        <div>
+            <h1 class="titulo">ExC (Experience Center)</h1>
+            <h2 class="tex-azul">Transforma tus ideas en realidad con experiencias de vanguardia</h2>
+            <div class="">
+                <div class="img-inicio-principal">
+                    <div>
+                        <img class="img-inicio" src="img/imagen-panorama-ExC.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="acordeon acordeon-principal">
+            <button class="acordeon-btn">
+                <h2 class="tex-naranja">¡Conecta con el poder de Cisco y vive la innovación en acción!</h2><i
+                    class="icono fa-solid fa-angle-down"></i>
+            </button>
+            <div class="acordeon-contenido acordeon-open">
+                <h3>En el Cisco Experience Center, te invitamos a sumergirte en el futuro de la tecnología.
+                    Nuestro compromiso es compartir contigo la visión innovadora de Cisco, ayudándote a descubrir cómo
+                    nuestras soluciones pueden impulsar tu éxito.
+                    Explora nuestras demostraciones interactivas y vive en primera persona cómo las tecnologías de Cisco
+                    están transformando la forma de conectar, colaborar y crecer.
+                    Consulta todas las experiencias disponibles en el CXC y descubre cómo podemos personalizar tu sesión
+                    informativa para llevar tus proyectos al siguiente nivel.
+                </h3>
+                <div class="img-acordeon-principal">
+                    <div>
+                        <img class="imagen-acordeon-principal expandible" src="img/imagen-diagrama.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img class="imagen-acordeon-principal expandible" src="img/Imagen-ExC.jpg" alt="">
+                    </div>
+                </div>
+                <div id="modalImagen" class="modal">
+                    <span class="cerrar" id="cerrar">&times;</span>
+                    <img class="modal-contenido" id="imagenAmpliada">
+                </div>
+                <div class="acordeon-sec">
+                    <button class="acordeon-btn">
+                        <h2 class="tex-azul">Future Work Place</h2><i class="icono fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="acordeon-contenido">
+                        <div class="row">
+                            <div class="col-1_1">
+
+                                <h3 class="tex-azul">Future Work Place</h3>
+                                <h4>Ofrecemos demostraciones en vivo desde nuestras áreas dedicadas a la colaboración,
+                                    donde mostramos la Suite Webex y los Dispositivos. Nuestros ingenieros
+                                    especializados en demostraciones destacarán las ventajas de la plataforma Webex, los
+                                    dispositivos Cisco y el Control Hub, así como otras integraciones clave (Meraki,
+                                    Cisco Spaces, Thousand Eyes) para habilitar espacios de trabajo híbridos,
+                                    sostenibles e inteligentes.</h4>
+
+                                <ul>
+                                    <li> Demostraciones en vivo definidas por casos de uso de la aplicación Webex y
+                                        Puntos de Video (incluido MTR).</li>
+                                    <li> Enfoque de plataforma abierta de Cisco: interoperabilidad con Microsoft (O365,
+                                        MS Teams, CVI, Zoom, Google, etc.).</li>
+                                    <li> Demostraciones de Webex Calling, Contact Center AI y Cinematic Meetings</li>
+                                    <li> Gestión centralizada en la nube con Control Hub.</li>
+                                    <li> Integraciones con Cisco Spaces para mejorar la experiencia en la oficina.</li>
+                                    <li> Integraciones con Meraki y Thousand Eyes para un monitoreo mejorado de la
+                                        experiencia del usuario.</li>
+                                    <li> Reuniones espaciales con Holo2 de Microsoft integradas con Webex (Holograms).
+                                    </li>
+                                </ul>
+                                <h3 class="tex-azul">Dispositivos</h3>
+                                <ul>
+                                    <li> Desk Cameras</li>
+                                    <li> PTZ4K Camera</li>
+                                    <li> Desk Series</li>
+                                    <li> Board Pro Series</li>
+                                    <li> Room Series</li>
+                                    <li> Room Panorama</li>
+                                    <li> Room Navigator (incl. room booking)</li>
+                                    <li> 3rd party integraciones como Appspace, UMA, Jibb, Moderro, Realwear, Holo</li>
+                                    <li> Integracion con aplicaciones Web, como Microsoft Whiteboard, Miro, y más…</li>
+                                </ul>
+                            </div>
+                            <div class="col-2_1">
+                                <img src="img/Imagen-ExC-2.jpg" alt="Imagen">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordeon-sec">
+                    <button class="acordeon-btn">
+                        <h2 class="tex-azul">Digital Resiliency: Redes seguras de extremo a extremo</h2><i class="icono fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="acordeon-contenido">
+                        <div class="row">
+                            <div class="col-1">
+
+                                <h3 class="tex-azul">Digital Resiliency: Redes seguras de extremo a extremo</h3>
+                                <h4>Destacamos el viaje del usuario y el viaje de TI para centrarnos en casos de uso
+                                    clave, como Zero Trust (Confianza Cero), segmentación de redes y políticas, SASE y
+                                    XDR. El objetivo de esta sesión es mostrar la arquitectura integral de Cisco como
+                                    una plataforma de red segura e integrada de extremo a extremo.</h4>
+                                <h4>Utilizando un gráfico de línea de tiempo y una demostración personalizada, mostramos
+                                    cómo un ataque puede recorrer una red empresarial y cómo el enfoque de Zero Trust de
+                                    Cisco y su portafolio de seguridad de extremo a extremo trabajan de manera cohesiva,
+                                    respaldados por la inteligencia de amenazas más reciente de Talos y XDR, para
+                                    ofrecer un modelo de defensa profundo que combata amenazas nuevas y emergentes.</h4>
+                            </div>
+                            <div class="col-2">
+                                <img src="img/Imagen-grafico-2.jpg" alt="Imagen">
+                                <h3 class="tex-azul">Demostraciones</h3>
+                                <ul>
+                                    <li> Microsegmentation SDAccess</li>
+                                    <li> NAC Posture</li>
+                                    <li> TCN (Threat Cointaned NAC)</li>
+                                    <li> Secure Network Access + DUO (Cautive Portal)</li>
+                                    <li> XDR</li>
+                                    <li> EDR (Secure Endpoint)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordeon-sec">
+                    <button class="acordeon-btn">
+                        <h2 class="tex-azul">Múltiples Centros de Datos y Preparados para IA</h2><i class="icono fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="acordeon-contenido">
+                        <div class="row">
+                            <div class="col-1_2">
+                                <h3 class="tex-azul">Múltiples Centros de Datos y Preparados para IA</h3>
+                                <h4>Descubre cómo las soluciones de Cisco están redefiniendo la infraestructura moderna
+                                    para superar los desafíos más exigentes del mercado actual. Imagina gestionar bases
+                                    de datos como nunca antes, con una eficiencia incomparable, o desplegar aplicaciones
+                                    de manera instantánea mediante infraestructura de escritorio virtual, sin
+                                    interrupciones para los usuarios. Adéntrate en el futuro con redes optimizadas para
+                                    IA y Machine Learning, que ofrecen un rendimiento, flexibilidad y eficiencia sin
+                                    precedentes. Además, exploramos cómo nuestra infraestructura transforma las
+                                    operaciones de TI, simplificando cargas de trabajo genéricas y llevando el
+                                    rendimiento de Big Data a niveles extraordinarios. Estas demostraciones no solo
+                                    muestran tecnología, sino el futuro de los centros de datos: ágiles, escalables y
+                                    totalmente preparados para liderar la innovación. </h4>
+
+                                <p class="tex-naranja">¡Únete y sé parte de esta revolución tecnológica!</p>
+
+                                <h3 class="tex-azul">Demostraciones disponibles en dCloud:</h3>
+                                <ul>
+                                    <li> Bases de Datos (SAP HANA, SQL, etc.): muchos clientes ejecutan bases de datos
+                                        SAP HANA.</li>
+                                    <li> VDI (Virtual Desk Infraestructure): implemente y escale rápidamente nuevas
+                                        aplicaciones o sistemas operativos de escritorio actualizados, sin
+                                        interrupciones para los usuarios.</li>
+                                    <li> IA/ML: nuestras redes para IA ofrecen una programabilidad, rendimiento,
+                                        flexibilidad y eficiencia inigualables, todo a través de Ethernet.</li>
+                                    <li> Cargas de Trabajo Genéricas: adopte una infraestructura de computación moderna
+                                        y adaptable, diseñada para simplificar las TI e innovar al ritmo del software.
+                                    </li>
+                                    <li> Big Data: obtenga un rendimiento excepcional, escalabilidad y disponibilidad
+                                        para aplicaciones exigentes.</li>
+                                </ul>
+                            </div>
+                            <div class="col-2_2">
+                                <img src="img/Imagen-dataCenter.jpg" alt="Imagen">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordeon-sec">
+                    <button class="acordeon-btn">
+                        <h2 class="tex-azul">Experiencias de Realidad Virtual (VR)</h2><i class="icono fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="acordeon-contenido">
+                        <div class="row">
+                            <div class="col-1_1">
+                                <h3 class="tex-azul">Experiencias de Realidad Virtual (VR)</h3>
+                                <h4>Esta es una experiencia presencial, ofrecida en sitios específicos de CXC, que
+                                    utiliza visores de realidad virtual para crear una experiencia de demostración
+                                    inmersiva.
+                                    Lleve a su cliente a un recorrido de realidad virtual con soluciones de Cisco
+                                    basadas en sectores verticales. Puede ser guiado o autoguiado con audio y texto. Una
+                                    experiencia sencilla y sin necesidad de conocimientos previos en VR.
+                                    Únase a nosotros mientras mostramos nuestros casos de uso de trabajo híbrido en un
+                                    entorno virtual para ayudar a los clientes a experimentar cómo pueden beneficiarse
+                                    de la tecnología y la metodología de diseño de Cisco. Discutiremos nuestro camino
+                                    hacia la sostenibilidad con edificios inteligentes y conectados, y cómo hemos
+                                    evolucionado para diseñar centros de colaboración enfocados en el trabajo híbrido.
+                                </h4>
+                                <h3>Experiencias Verticales Disponibles</h3>
+                                <ul>
+                                    <li> Experiencia de Edificio Inteligente (Penn1)</li>
+                                    <li> Experiencia de Edificio Inteligente (ATL)</li>
+                                    <li> Experiencia Universitaria</li>
+                                    <li> Experiencia en Salud</li>
+                                    <li> Experiencia en Retail (Supermercado/Farmacia)</li>
+                                    <li> Experiencia en Manufactura (Farmacéutica)</li>
+                                    <li> Sostenibilidad</li>
+                                </ul>
+                            </div>
+                            <div class="col-2_1">
+                                <img src="img/imagen-VR.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div class="acordeon acordeon-principal">
+            <button class="acordeon-btn">
+                Acordeón Principal <i class="icono fa-solid fa-angle-down"></i>
+            </button>
+            <div class="acordeon-contenido acordeon-open">
+                <p>Contenido del acordeón principal.</p>
+                <div class="acordeon-sec">
+                    <button class="acordeon-btn">
+                        Acordeón Anidado 1 <i class="icono fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="acordeon-contenido">
+                        <div class="row">
+                            <div class="col-1">
+
+                                <h3 class="tex-azul">Leading with Experiences</h3>
+                                <h4>At the Cisco Experience Center our goal is to tell the wider Cisco story and help
+                                    customers and partners to experience the best of Cisco.</h4>
+                                <p>Check out all of our available CXC Demo Experiences below to see how we can enhance
+                                    your briefing and bring Cisco solutions to life.
+                                </p>
+                                <p class="tex-rojo">Note: Our dedicated demo team has been severely reduced, so you may
+                                    see a reduction in demo offerings in our remaining CXC locations.</p>
+                                <p class="tex-naranja">What are the next steps after a CXC Experience?</p>
+                                <p>Explore other Sales resources such as Competitive Intelligence and Value Proposition
+                                    & Proposal</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="img/ejemplo.png" alt="Imagen">
+                                <p>Texto junto a la imagen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordeon-sec">
+                    <button class="acordeon-btn">
+                        Acordeón Anidado 2 <i class="icono fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="acordeon-contenido acordeon-open">
+                        <div class="row">
+                            <div class="col-1">
+
+                                <h3 class="tex-azul">Leading with Experiences</h3>
+                                <h4>At the Cisco Experience Center our goal is to tell the wider Cisco story and help
+                                    customers and partners to experience the best of Cisco.</h4>
+                                <p>Check out all of our available CXC Demo Experiences below to see how we can enhance
+                                    your briefing and bring Cisco solutions to life.
+                                </p>
+                                <p class="tex-rojo">Note: Our dedicated demo team has been severely reduced, so you may
+                                    see a reduction in demo offerings in our remaining CXC locations.</p>
+                                <p class="tex-naranja">What are the next steps after a CXC Experience?</p>
+                                <p>Explore other Sales resources such as Competitive Intelligence and Value Proposition
+                                    & Proposal</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="img/ejemplo.png" alt="Imagen">
+                                <p>Texto junto a la imagen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="acordeon acordeon-principal">
+            <button class="acordeon-btn">
+                Acordeón Principal <i class="icono fa-solid fa-angle-down"></i>
+            </button>
+            <div class="acordeon-contenido">
+                <p>Contenido del acordeón principal.</p>
+                <div class="acordeon-sec">
+                    <button class="acordeon-btn">
+                        Acordeón Anidado 1 <i class="icono fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="acordeon-contenido">
+                        <div class="row">
+                            <div class="col-1">
+
+                                <h3 class="tex-azul">Leading with Experiences</h3>
+                                <h4>At the Cisco Experience Center our goal is to tell the wider Cisco story and help
+                                    customers and partners to experience the best of Cisco.</h4>
+                                <p>Check out all of our available CXC Demo Experiences below to see how we can enhance
+                                    your briefing and bring Cisco solutions to life.
+                                </p>
+                                <p class="tex-rojo">Note: Our dedicated demo team has been severely reduced, so you may
+                                    see a reduction in demo offerings in our remaining CXC locations.</p>
+                                <p class="tex-naranja">What are the next steps after a CXC Experience?</p>
+                                <p>Explore other Sales resources such as Competitive Intelligence and Value Proposition
+                                    & Proposal</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="img/ejemplo.png" alt="Imagen">
+                                <p>Texto junto a la imagen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acordeon-sec">
+                    <button class="acordeon-btn">
+                        Acordeón Anidado 2 <i class="icono fa-solid fa-angle-down"></i>
+                    </button>
+                    <div class="acordeon-contenido">
+                        <div class="row">
+                            <div class="col-1">
+
+                                <h3 class="tex-azul">Leading with Experiences</h3>
+                                <h4>At the Cisco Experience Center our goal is to tell the wider Cisco story and help
+                                    customers and partners to experience the best of Cisco.</h4>
+                                <p>Check out all of our available CXC Demo Experiences below to see how we can enhance
+                                    your briefing and bring Cisco solutions to life.
+                                </p>
+                                <p class="tex-rojo">Note: Our dedicated demo team has been severely reduced, so you may
+                                    see a reduction in demo offerings in our remaining CXC locations.</p>
+                                <p class="tex-naranja">What are the next steps after a CXC Experience?</p>
+                                <p>Explore other Sales resources such as Competitive Intelligence and Value Proposition
+                                    & Proposal</p>
+                            </div>
+                            <div class="col-2">
+                                <img src="img/ejemplo.png" alt="Imagen">
+                                <p>Texto junto a la imagen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

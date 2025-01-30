@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 20px;
+}
+
+li{
+    color: #f5f5f5;
+    font-size: 18px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.contenido {
+    background-image: url('../img/bakgound-cisco.png');
+    /* Cambia esta ruta */
+    background-size: cover;
+    /* Asegura que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-position: center;
+    /* Centra la imagen */
+    padding: 20px;
+    /* Espaciado interno */
+    border-radius: 10px;
+    /* Opcional: bordes redondeados */
+}
+
+.img-inicio-principal{
+    display: flex;
+    justify-content: center;
+}
+
+.img-inicio{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 2%;
+}
+
+.acordeon {
+    background-image: url("../img/Bakground2.jpg");
+    margin: 10px 0;
+    overflow: hidden;
+    transition: background-color 0.3s ease; /* Asegura que la transición de color se aplique */
+}
+
+.acordeon.abierto {
+    background-color: transparent; /* Fondo transparente cuando está abierto */
+    background-image: none; /* Quitar la imagen de fondo */
+}
+
+.acordeon-btn {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.acordeon-btn:hover {
+    background-color: #a8a8a86a;
+}
+
+.acordeon-btn.active{
+    background-color: #292d2f3f;
+}
+
+.acordeon-sec{
+    background-image: url("../img/Bakground.jpg");
+    margin: 10px 0;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.icono {
+    transition: transform 0.3s ease;
+}
+
+.acordeon-btn.active .icono {
+    transform: rotate(360deg);
+}
+
+/* Ajuste de transición más suave para max-height */
+.acordeon-contenido {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out; /* Mejorar la fluidez */
+    padding: 0 15px;
+    box-sizing: border-box;
+
+
+}
+
+.acordeon-open{
+    background-color: #292d2f3f;
+}
+
+.acordeon-contenido p {
+    margin: 10px 0;
+}
+
+.img-acordeon-principal{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-acordeon-principal{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.imagen-acordeon-principal:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+/* Imagen dentro del modal */
+.modal-contenido {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Botón para cerrar el modal */
+.cerrar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Flexbox para la fila */
+.row {
+    display: flex;
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.col-1 {
+    flex: 1; /* La primera columna será más grande */
+    background-color: transparent;
+    padding: 10px;
+}
+
+.col-2 {
+    flex: 2; /* La segunda columna será más pequeña */
+    background-color: transparent;
+    padding: 10px;
+}
+
+.col-1_1 {
+    flex: 2; /* La primera columna será más grande */
+    background-color: transparent;
+    padding: 10px;
+}
+
+.col-2_1 {
+    flex: 1; /* La segunda columna será más pequeña */
+    background-color: transparent;
+    padding: 10px;
+}
+
+.col-2_1 img {
+    max-width: 100%; /* Hacer que la imagen no se desborde */
+    height: auto;
+}
+
+.col-1_2 {
+    flex: 1; /* La primera columna será más grande */
+    background-color: transparent;
+    padding: 10px;
+}
+
+.col-2_2 {
+    flex: 1; /* La segunda columna será más pequeña */
+    background-color: transparent;
+    padding: 10px;
+}
+
+.col-2_2 img {
+    max-width: 100%; /* Hacer que la imagen no se desborde */
+    height: auto;
+}
+
+.col-2 img {
+    max-width: 100%; /* Hacer que la imagen no se desborde */
+    height: auto;
+}
+
+.tex-azul{
+    color: #00BCEB;
+    font-size: 26px;
+}
+
+.tex-rojo{
+    color: #e81123;
+    font-size: 22px;
+}
+
+.tex-naranja{
+    color: #FBAB2C;
+    font-size: 22px;
+}
